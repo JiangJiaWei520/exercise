@@ -16,7 +16,7 @@ bag,hello,without,world
 
 
 class Question008:
-    def  __init__(self):
+    def __init__(self):
         pass
 
     def test_fun(self):
