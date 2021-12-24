@@ -21,20 +21,24 @@ class Question013:
     def test_fun(self):
         # 接受一个句子并计算字母和数字的个数。
         juzi = input("请输入一个句子：")
-        i = 0
-        j = 0
+        # 累加计算字母和数字个数
+        dic = d = {"DIGITS":0, "LETTERS":0}
         #print(juzi,juzi[0])
+        # 循环判断字符
         for x in range(len(juzi)):
             #print(juzi.isalpha(),juzi.isdigit())
+            # 判断是否是字母
             if juzi[x].isalpha():
-                i +=1
+                d["LETTERS"] += 1
                 #print(i)
+            #  判断是否是数字
             elif juzi[x].isdigit():
-                j +=1
+                d["DIGITS"] += 1
+            #  非数字或者字母无条件通过
             else:
                 pass
 
-        print(i,j)
+        print(d)
 
 if __name__ == "__main__":
     Question013().test_fun()
