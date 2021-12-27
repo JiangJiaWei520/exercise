@@ -17,7 +17,8 @@ class Question016:
         l = list(input("输入由逗号分隔的数字序列:").split(","))
         #print(l,range(len(l)),l[0])
         # 遍历判断每个值是否为奇数，返回奇数的值并进行平方
-        result = [ int(l[x])**2 for x in range(len(l)) if (int(l[x])%2) !=0 ]
+        # result = [ int(l[x])**2 for x in range(len(l)) if (int(l[x])%2) !=0 ]
+        result = [int(x) ** 2 for x in l if (int(x) % 2) != 0]
         print(result)
 
 if __name__ == "__main__":
