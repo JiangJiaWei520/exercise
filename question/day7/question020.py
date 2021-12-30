@@ -12,7 +12,7 @@
 提示：
 考虑使用类、函数和理解。
 """
-class Question:
+class Question020:
     def __init__(self):
         pass
 
@@ -38,4 +38,4 @@ class Question:
 
 
 if  __name__ == '__main__':
-    Question().test_fun()
+    Question020().test_fun()
