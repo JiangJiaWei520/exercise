@@ -1,5 +1,5 @@
 """
-来源：
+来源：https://github.com/darkprinx/break-the-ice-with-python/blob/master/Status/Day%207.md
 问题 20
 问题：
 定义一个带有生成器的类，该生成器可以在给定范围 0 和 n 之间迭代可被 7 整除的数字。
