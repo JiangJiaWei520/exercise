@@ -21,9 +21,10 @@ class MatchAlph:
     """
         获取电子邮箱前缀
     """
+
     def match_alph(self, alph='xxx@xxx.xx'):
         # alph = 'john@google.com'
-        lst=alph.split("@")
+        lst = alph.split("@")
         print(lst[0])
 
 
